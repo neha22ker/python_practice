@@ -10,3 +10,8 @@ class Solution:
                 result.append(word2[i])
         
         return ''.join(result)
+
+sol = Solution()
+
+output = sol.mergeAlternately("abc","pqr")
+print(output)
